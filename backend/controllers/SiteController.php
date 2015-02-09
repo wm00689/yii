@@ -8,7 +8,7 @@ use common\models\LoginForm;
 use yii\filters\VerbFilter;
 
 /**
- * Site controller111
+ * Site controller11122222
  */
 class SiteController extends Controller
 {

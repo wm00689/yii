@@ -28,6 +28,13 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'view' => [
+            'theme' => [
+                'pathMap' => ['@app/views' => '@app/themes/basic'],
+                'baseUrl' => '@web/themes/basic',
+            ],
+        ],
+
     ],
     'params' => $params,
 ];

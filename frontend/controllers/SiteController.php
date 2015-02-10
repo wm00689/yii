@@ -67,6 +67,7 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
+        echo Yii::getAlias('app');
         return $this->render('index');
     }
 
@@ -167,5 +168,11 @@ class SiteController extends Controller
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
+
+
+    }
+
+    public function actionOffline(){
+        return $this->render('offline');
     }
 }

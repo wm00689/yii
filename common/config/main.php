@@ -8,6 +8,8 @@ return [
 
         'urlManager' => [
             'enablePrettyUrl' => true,
+            'showScriptName' => false,
+           // 'catchAll' => 'site/offline',
             //'showScriptName' => false,
             /* 'rules' => [
 
@@ -16,4 +18,5 @@ return [
                  ],*/
         ],
     ],
+    //'catchAll' => ['site/offline'],
 ];
